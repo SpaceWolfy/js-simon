@@ -20,7 +20,7 @@ let numeriUser = [];
 
 setTimeout(function hideNumbers() {
 outputHtml.className = 'display-none';
-}, 3000);
+}, 30000);
 
 setTimeout(function questions(){
     let domandaNum;
@@ -54,4 +54,4 @@ setTimeout(function questions(){
         outputHtml = document.querySelector('.guessed-numbers');
         outputHtml.innerHTML = `(${numeriIndovinati})`;
     };
-}, 3100);
+}, 31000);
