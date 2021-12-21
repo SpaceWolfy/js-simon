@@ -17,10 +17,20 @@ header {
     margin-top: 40px;
 }
 
-#output-numbers {
+#output-numbers-container {
     margin: 40px auto;
     width: 400px;
     height: 200px;
     border: 4px solid black;
     background-color: chocolate;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+
+.display-none {
+    display: none;
 }
